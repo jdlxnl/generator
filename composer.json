@@ -1,8 +1,8 @@
 {
     "name": "jdlxnl/generator",
-    "description": "Foundation for file generation",
+    "description": "Placeholder for file generation",
     "type": "library",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jeroen de Lau",
@@ -20,9 +20,5 @@
         "spatie/laravel-permission": "^4.0",
         "jdlxnl/jdlx": "^1.0",
         "ext-json": "*"
-    },
-
-    "repositories": [
-        { "name": "jdlxnl/jdlx", "type": "vcs", "url": "https://github.com/jdlxnl/jdlx" }
-    ]
+    }
 }
