@@ -1,0 +1,28 @@
+{
+    "name": "jdlxnl/generator",
+    "description": "Foundation for file generation",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jeroen de Lau",
+            "email": "jeroen.delau@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jdlx\\Generator\\": "src/"
+        }
+    },
+    "require": {
+        "doctrine/dbal": "^3.0",
+        "laravel/sanctum": "^2.9",
+        "spatie/laravel-permission": "^4.0",
+        "jdlxnl/jdlx": "^1.0",
+        "ext-json": "*"
+    },
+
+    "repositories": [
+        { "name": "jdlxnl/jdlx", "type": "vcs", "url": "https://github.com/jdlxnl/jdlx" }
+    ]
+}

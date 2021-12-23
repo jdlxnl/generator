@@ -1,27 +1,19 @@
 ###### Package
 
+Placeholder for code generation
+
+## Installation
 Add the package by loading it through composer.
 
+Add this repository to your composer.json
 ```json
-
 {
-    "require": {
-        "jdlx/jdlx": "*"
-    },
-    
-    "require-dev" : {
-        "jdlx/generator": "*"
-    },
-    
     "repositories": [
-        {
-            "type": "path",
-            "url": "./jdlx/Foundation"
-        },
-        {
-            "type": "path",
-            "url": "./jdlx/Generator"
-        }
+        { "name": "jdlxnl/generator", "type": "vcs", "url": "https://github.com/jdlxnl/generator" }
     ]
 }
+```
+
+```shell
+composer require jdlxnl/generator
 ```
